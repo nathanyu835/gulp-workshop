@@ -8,10 +8,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  background-color: rgba(20,20,20,0.2);
 }
 
 h1 {
   font-size: $big-font / 1.5;
+  padding: 30px;
+  background-color: lightblue;
 }
 
 hr { /* styling from http://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
@@ -101,5 +104,9 @@ code {
     border-width: 0 thick thick 0;
     border-radius: 4px;
     background-color: $blue;
+  }
+
+  input:hover {
+    color: black;
   }
 }
